@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  margin: auto;
+  border: solid black 2px;
+  border-radius: 72px;
+  background: rgba(45, 82, 155, 0.95);
+  height: 812px;
+  width: 375px;
+}
+.outercamera {
+  background: #5474b5;
+  border: solid black 2px;
+  border-radius: 51px;
+  position: relative;
+  width: 172.61px;
+  height: 135.52px;
+  left: 20.6px;
+  top: 24.49px;
+}
+.camerabody1 {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 28px;
+  top: 28px;
+  background: #262628;
+  border: solid black 2px;
+  border-radius: 100px;
+}
+.insidecamera1 {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 4px;
+  top: 4px;
+  border: solid black 2px;
+  background: #0d0c0c;
+  border-radius: 100px;
+}
+.camerbody2 {
+  position: relative;
+  width: 47px;
+  height: 47px;
+  left: 58%;
+  top: 53%;
+  background: #262628;
+  border: solid black 2px;
+  border-radius: 100px;
+}
+.insidecamera2 {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 4px;
+  top: 4px;
+  border: solid black 2px;
+  background: #0d0c0c;
+  border-radius: 100px;
+}
+.smallflash {
+  position: relative;
+  width: 17px;
+  height: 17px;
+  left: 42px;
+  top: 52px;
+  border: solid 2px black;
+  background: #9ab9d0;
+  border-radius: 100px;
+}
+.bigflashlight {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 116px;
+  top: 23px;
+  background: #9ab9d0;
+  border-radius: 100px;
+}
+.insideflashlight {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  left: 3px;
+  top: 3px;
+  background: #100c0c;
+  border-radius: 100px;
+}
+.logo {
+  position: absolute;
+  width: 96px;
+  height: 87px;
+  left: 670px;
+  top: 371px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.googleassiant {
+  position: absolute;
+  width: 4px;
+  height: 84px;
+  left: 530px;
+  top: 250px;
+  background: #365a9f;
+}
+.mute {
+  position: absolute;
+  width: 4px;
+  height: 30px;
+  left: 907px;
+  top: 190px;
+  background: #365a9f;
+}
+.volumeup {
+  position: absolute;
+  width: 4px;
+  height: 40px;
+  left: 907px;
+  top: 250px;
+  background: #365a9f;
+}
+.volumedown {
+  position: absolute;
+  width: 4px;
+  height: 40px;
+  left: 907px;
+  top: 300px;
+  background: #365a9f;
+}
+.logo:hover {
+  background-color: rgb(168, 166, 154);
+  border-radius: 100px;
+}
+.outercamera:hover {
+  background-color: #0d0c0c;
+}

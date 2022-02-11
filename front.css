@@ -1,0 +1,77 @@
+.front {
+  margin: auto;
+  border: solid black 2px;
+  border-radius: 72px;
+  background: rgba(45, 82, 155, 0.95);
+  height: 812px;
+  width: 375px;
+}
+.bazeles {
+  position: absolute;
+  border-radius: 79px;
+  background: black;
+  height: 799px;
+  width: 359px;
+  top: 15px;
+  left: 540px;
+}
+.frame {
+  position: absolute;
+  border-radius: 79px;
+  width: 341px;
+  height: 783px;
+  top: 9px;
+  left: 10px;
+  background: white;
+  background: url(img/frontimg.webp);
+}
+.camerabump {
+  position: absolute;
+  border-radius: 0px 0px 15px 15px;
+  width: 175px;
+  height: 40px;
+  top: -9px;
+  left: 78px;
+  background: black;
+}
+.camera {
+  position: absolute;
+  border-radius: 16px;
+  width: 16px;
+  height: 16px;
+  left: 30px;
+  top: 13px;
+  background: #313859;
+}
+.assiant {
+  position: absolute;
+  width: 5px;
+  height: 87px;
+  left: 527px;
+  top: 250px;
+  background: #365a9f;
+}
+.mute {
+  position: absolute;
+  width: 5px;
+  height: 38px;
+  left: 908px;
+  top: 170px;
+  background: #365a9f;
+}
+.volumeup {
+  position: absolute;
+  width: 5px;
+  height: 38px;
+  left: 908px;
+  top: 250px;
+  background: #365a9f;
+}
+.voulumedown {
+  position: absolute;
+  width: 5px;
+  height: 38px;
+  left: 908px;
+  top: 300px;
+  background: #365a9f;
+}
